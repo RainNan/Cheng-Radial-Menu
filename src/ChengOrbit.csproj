@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>RadialMenu</AssemblyName>
+    <RootNamespace>ChengOrbit</RootNamespace>
+    <Version>0.1.7</Version>
+    <Product>澄——桌面轮盘 / Cheng Radial Menu</Product>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <Description>按住左 Alt，在鼠标附近呼出的液态玻璃桌面轮盘。</Description>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>orbit.ico</ApplicationIcon>
+    <NoWarn>$(NoWarn);WFO0003</NoWarn>
+  </PropertyGroup>
+</Project>
